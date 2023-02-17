@@ -9,7 +9,7 @@ contract MyERC20 is IERC20 {
     uint256 private supply;
 
     // balances of users
-    mapping(address => uint256) balances;
+    mapping(address => uint256) public balances;
 
     string public name;
     string public symbol;
