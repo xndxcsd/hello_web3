@@ -144,6 +144,43 @@
       "artifacts": [
         "MyERC20"
       ]
+    },
+    "/Users/chensiding/workspaces/hello_web3/solidity_ramp_up/contracts/Airdrop/Airdrop.sol": {
+      "lastModificationDate": 1676623931607,
+      "contentHash": "8675f6797ef44ed8a0da427cce3477e7",
+      "sourceName": "contracts/Airdrop/Airdrop.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Airdrop"
+      ]
     }
   }
 }
